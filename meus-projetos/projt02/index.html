@@ -8,15 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>
-                Cadastro
-        </h1>
-        <p>
-                cadastro para vaga de emprego para programadores
-        </p>
-    </header>
     <form action="" autocomplete="off">
+
+        <h1>
+             Cadastro de Devs
+         </h1>
         <fieldset> 
             <legend>
                 Informações pessoais
@@ -27,11 +23,11 @@
             </div>
             <div>
                 <label for="email">E-Mail:</label>
-                <input type="email" name="email" id="email" required placeholder="digite seu email">
+                <input type="email" name="email" id="email" required placeholder="Digite seu email">
             </div>
             <div>
                 <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" required placeholder="digite sua senha">
+                <input type="password" name="senha" id="senha" required placeholder="Digite sua senha">
             </div>
             <div>
                 <label for="idade">Data de Nascimento:</label>
@@ -40,18 +36,32 @@
         </fieldset>
         <fieldset>
             <legend>
-                    Sexo
+                    Desenvolvedor
             </legend>
-             <input type="radio" name="sexo" id="semas">
-             <label for="smas">Masculino</label>
+             <input type="radio" name="dev" id="front">
+             <label for="front">Front-end</label>
 
-             <input type="radio" name="sexo" id="sefem">
-             <label for="sfem">Feminino</label>
+             <input type="radio" name="dev" id="back">
+             <label for="sfem">Back-end</label>
+
+             <input type="radio" name="dev" id="fulls">
+             <label for="fulls">FullStrak</label>
         </fieldset>
-        <label for="">Liguagem de programação</label>
-        <section>
-            
-        </section>
-    </form>
+        <fieldset>
+            <legend>
+                    Liguagem de programção 
+            </legend>
+            <input type="checkbox" name="java" id="java">
+            <label for="java">Java</label>
+
+            <input type="checkbox" name="python" id="python">
+            <label for="python">Python</label>
+
+            <input type="checkbox" name="js" id="js">
+            <label for="js">JavaScript</label>
+
+            <input type="checkbox" name="c++" id="c++">
+            <label for="c++">C++</label>
+        </fieldset>
 </body>
 </html>
