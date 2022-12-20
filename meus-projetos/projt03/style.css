@@ -36,8 +36,10 @@ nav {
 nav a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    background-color: #0011ff;
     color: #ffffff;
     text-decoration: none;
+    margin-right:15px;
 }
 
 nav a:hover {
@@ -52,7 +54,15 @@ main {
     background-color: white;
 }
 
-main h1, h2 {
+#titulo-1 {
+    text-align: center;
+    margin: 20px;
+    background-color: #48c6ef;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: inherit;
+}
+
+main h1 , h2 {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 15px;
 }
@@ -74,3 +84,30 @@ main img {
     border-radius: 10px;
 }
 
+footer {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    max-width: 820px;
+    min-width: 300px;
+    margin: auto
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #0011ff;
+    margin:10px;
+
+}
+
+footer a:hover {
+    color: #26f826;
+    text-decoration: underline;
+}
